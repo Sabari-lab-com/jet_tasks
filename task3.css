@@ -1,0 +1,83 @@
+.data{
+    margin-right: 10px;
+    font-weight: bold;
+}
+#name{
+    margin-left: 35px;
+    
+}
+#male{
+    margin-left: 22px;
+}
+input{
+    margin-bottom: 10px;
+}
+.body{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+#info{
+    border: 1px solid black;
+    width: 30%;
+    height: 45%;
+    padding: 0px 20px;
+    padding-top: 50px;
+    text-align: center;
+
+}
+label,input{
+    margin-top: 20px;
+    font-size: larger;
+}
+#s_button,#r_button{
+    border: none;
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    font-size: small;
+    
+}
+#s_button{
+     background-color: greenyellow;
+     margin-left: 25%;
+     
+    
+     
+}
+#r_button{
+    color: white;
+    background-color: rgba(0, 0, 255, 0.904);
+    margin-left: 20px; 
+
+}
+
+#r_button:hover{
+    outline: 1px solid rgb(0, 0, 0);
+    outline-offset: 3px;
+    transition: 0.5s;
+}
+#s_button:hover{
+    outline: 1px solid rgb(0, 0, 0);
+    outline-offset: 3px;
+    transition: 0.5s;
+    
+}
+
+
+#info{
+    background-color: rgba(238, 238, 238, 0.938);
+    border-radius: 12px;
+    border: none;
+    box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.63);
+    
+}
+
+
+
+

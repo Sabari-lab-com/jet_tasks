@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome page</title>
+    <link rel="icon" href="icons8-car-100.png">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 10px;
+            cursor: pointer;
+            background-color: black;
+            border-bottom: 1px whitesmoke solid;
+        }
+        header div{
+            display: flex;
+            justify-content: start;
+            color: white;
+        }
+        #d,#b{
+            color: red;
+        }
+        nav,ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        li{
+            list-style-type: none;
+            margin-right: 10px;
+        }
+        header nav ul li a{
+            color: rgb(255, 255, 255);
+            font-size: medium;
+            text-decoration: none;
+        }
+        header nav img:hover{
+            
+            outline: 2px solid white;
+
+            transition: 0.5s;
+        }
+        header nav ul li a:hover{
+            color: crimson;
+        }
+
+        .section-1{
+            width: 100%;
+            height: 45vh;
+            /* background: url("/section1img.png");*/
+            background: url(https://static.vecteezy.com/system/resources/previews/023/977/578/non_2x/front-view-dark-silhouette-of-a-modern-luxury-red-car-isolated-on-dark-background-with-red-neon-light-and-smoke-ai-generated-free-photo.jpg) center;
+            background-repeat: no-repeat ;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .section-1 button{
+            padding:10px 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: aliceblue;
+            color: red;
+        }
+        .section-1 button:hover{
+            box-shadow: 0px 0px 10px 2px red;
+            transition: 0.5s;
+        }
+        .master-sec-2{
+            background-color: rgb(58, 54, 54);
+        }
+        .master-sec-2 .data{
+            padding: 5px 10px;
+            color: whitesmoke;
+            padding-bottom: 20px;
+    
+        }
+        .section-2{
+            background-color: rgba(58, 54, 54, 0.812);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 25vh;
+        }
+
+        .l-line,.r-line{
+            width: 45%;
+            height: 0px;
+            border: 1px solid red;
+
+        }
+        .home{
+            cursor: pointer;
+            border: 1px solid red;
+            border-radius: 20px;
+            padding:  5px 12px;
+            color: rgb(255, 255, 255);
+            font-weight: 500;
+        }
+        footer{
+            cursor: pointer;
+            border-top: 1px solid white;
+            text-align: center;
+            background-color: black;
+            color: rgb(173, 173, 173);
+            padding: 20px 0px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div><h1 id="d">D</h1><h1>ash<h1 id="b">b</h1><h1>oard</h1></div>
+        
+        <nav>
+            <ul>
+                <li><a href="https://www.bmw-m.com/en/index.html">Home</a></li>
+                <li><a href="https://www.bmw-m.com/en/topics/all-models.html">View</a></li>
+            </ul>
+            <img src="https://tse3.mm.bing.net/th/id/OIP.G39qqg039FfpluL2dgVSAQHaLH?cb=thfvnext&rs=1&pid=ImgDetMain&o=7&rm=3" alt="loading" width="45px" height="45px" style="border-radius: 50%; margin-left: 10px;">
+        </nav>
+    </header>
+    <div class="section-1">
+        <button>Explore</button>
+    </div>
+    <div class="master-sec-2">
+        <div class="section-2">
+        <div class="l-line"></div>
+        <div class="home">
+            <p>Home</p>
+        </div>
+        <div class="r-line"></div>
+        
+    </div>
+   <p class="data">The BMW X6 M60i xDrive* unites M typical sportiness, exceptional comfort and maximum safety in an exciting vehicle concept. Equipped with a newly developed M TwinPower Turbo 8-cylinder engine with 48-volt mild hybrid technology and the adaptive M suspension, this sports activity coupé skilfully combines the qualities of the BMW X6 with the unique driving dynamics of BMW M – and impresses in a fraction of a second
+    </p>
+    </div>
+    
+    <footer>
+        <p>All copy rigths reserved 2026</p>
+        <p>Terms & Condition | Privacy policy | Contact us</p>
+    </footer>
+</body>
+</html>

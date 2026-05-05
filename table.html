@@ -1,0 +1,143 @@
+<!doctype>
+<html>
+
+<head>
+    <title>Table</title>
+    <style>
+        .heading1 {
+
+            display: flex;
+            justify-content: center;
+
+        }
+
+        /* .tablebox{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        } */
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 700px;
+            height: 350px;
+            margin-top: 20vh;
+            background-color: rgb(0, 255, 234);
+
+
+        }
+
+        th {
+            padding: 5px;
+            background-color: gray;
+            color: gold;
+            font-size: large;
+            cursor: pointer;
+
+        }
+
+        td {
+            padding: 5px;
+            font-size: medium;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        td:hover {
+            color: white;
+            background-color: rgb(0, 0, 0);
+            transition: 0.5s;
+        }
+
+        th:hover {
+            color: black;
+            background-color: rgb(221, 221, 221);
+            text-shadow: -1px -1px 0 rgb(255, 255, 255),
+                1px -1px 0 rgb(255, 255, 255),
+                -1px 1px 0 rgb(255, 255, 255),
+                1px 1px 0 rgb(255, 255, 255);
+        }
+
+        .atag {
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+            display: flex;
+            justify-content: end;
+        }
+
+        .atag a {
+            color: black;
+            margin-top: 20px;
+            font-size: large;
+            text-decoration: none;
+        }
+
+        .atag a:hover {
+            color: rgb(255, 0, 0);
+            transition: 500ms;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heading1">
+            <h1>Student MarkSheet</h1>
+        </div>
+    <div class="wholecontent">
+        
+        <div class="tablebox">
+            <table border="1">
+                <tr>
+                    <th>Name</th>
+                    <th> Mark1</th>
+                    <th> Mark2</th>
+                    <th> Mark3</th>
+                </tr>
+                <tr>
+                    <td>Ben</td>
+                    <td>60</td>
+                    <td>70</td>
+                    <td>75</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>60</td>
+                    <td>70</td>
+                    <td>75</td>
+                </tr>
+                <tr>
+                    <td>Jack</td>
+                    <td>60</td>
+                    <td>70</td>
+                    <td>75</td>
+                </tr>
+                <tr>
+                    <td>Tom</td>
+                    <td>60</td>
+                    <td>70</td>
+                    <td>75</td>
+                </tr>
+            </table>
+        </div>
+        
+
+    </div>
+    <div class="atag">
+            <a href="https://www.youtube.com/">Next page</a>
+        </div>
+
+
+
+
+</body>
+
+</html>

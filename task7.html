@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'poppins', sans-serif;
+        }
+
+        input::placeholder {
+            color: rgb(22, 26, 57);
+            padding-bottom: 10px;
+            font-size: medium;
+
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: rgb(255, 255, 255);
+            margin: 20px 55px;
+            cursor: pointer;
+        }
+
+        .navbar button {
+            margin: 0px 20px;
+            padding: 10px 20px;
+            background-color: transparent;
+            color: white;
+            border: 1px solid white;
+            border-radius: 10px;
+            font-size: 1em;
+            font-weight: 700;
+        }
+
+        .navbar button:hover {
+            color: black;
+            background-color: white;
+            transition: 500ms;
+        }
+
+        .navbar a {
+            margin-right: 25px;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            transform: scaleX(0);
+        }
+
+        .navbar a:hover {
+            border-bottom: 2px solid white;
+            transform: scaleX(0);
+            transition: 0.5s;
+        }
+
+        body {
+            height: 95vh;
+            background: url("forest bg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .login-container,
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: none;
+            border-radius: 10px;
+        }
+
+        .login-container {
+            width: 380px;
+            height: 350px;
+            backdrop-filter: blur(12px);
+            box-shadow: 0px 0px 15px 5px black;
+        }
+
+        form {
+            width: 380px;
+            height: 350px;
+        }
+
+        .login-container form .input {
+            width: 80%;
+            height: 8%;
+            margin: 5px 0px;
+            background-color: transparent;
+            border: none;
+            padding-bottom: 5px;
+            border-bottom: 1.5px solid black;
+        }
+
+
+        .login-container button {
+            width: 80%;
+            height: 12%;
+            background-color: black;
+            color: white;
+            font-size: large;
+            font-family: 'poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            border-radius: 5px;
+            margin: 20px 0px;
+
+        }
+
+        .mid label,
+        a {
+            color: black;
+            text-decoration: none;
+            margin: 4px 30px;
+
+        }
+
+        .mid {
+            margin-top: 20px;
+        }
+
+        .register #regs {
+            margin: 0px 5px;
+            font-weight: 700;
+        }
+
+        .register {
+            margin-top: 10px;
+        }
+
+        .body-dup {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h2 {
+            margin: 20px 0px;
+            cursor: pointer;
+        }
+
+        .login-container .xbtn {
+            width: 100%;
+
+        }
+
+        .xbtn {
+            height: fit-content;
+            display: flex;
+            justify-content: end;
+        }
+
+        .xbtn button {
+            margin: 0px;
+            width: 30px;
+            height: 30px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+
+        i{
+            position: absolute;
+            left: 90%;
+            top: 30%;
+        }
+        #i2{
+            position: absolute;
+            left: 90%;
+            top: 40%;
+        }
+        input:focus{
+            outline: none;
+        }
+
+        
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Logo</h1>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <button>Login</button>
+        </nav>
+    </header>
+    <div class="body-dup" style="width: 100vw; height: 85vh;">
+
+
+        <div class="login-container">
+            <div class="xbtn">
+                <button>x</button>
+            </div>
+            <h2>Login</h2>
+            <form>
+                <i class="material-icons">email</i>
+
+                <input class="input" type="email" placeholder="Email">
+                <i id="i2" class="material-icons">lock</i>
+                <input class="input" type="password" placeholder="Password">
+                <div class="mid">
+                    <label for="remember"><input type="checkbox" id="remember">Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+
+                <button type="submit">Login</button>
+
+                <div class="register">
+                    <span>Don't have an account?</span><a href="#" id="regs">Register</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

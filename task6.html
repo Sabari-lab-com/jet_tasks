@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(45deg,rgb(0, 255, 162),rgba(0, 255, 234, 0.849),cyan);
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 5px black;
+        }
+        .main{
+            width: 700px;
+            margin-top: 10vh;
+            margin-left: 30%;
+            color: whitesmoke;
+            
+            
+        }
+        
+        body{
+            background: linear-gradient(165deg,rgb(255, 0, 55),rgb(255, 0, 123),rgba(230, 0, 255, 0.933),blue);
+            height: 90vh;
+        }
+        
+
+        th,td {
+            text-transform: uppercase; 
+            padding-right: 25px;
+            padding-bottom: 10px;
+        }
+        td{
+            border-bottom: .8px solid white;
+        }
+        td,th{
+            padding: 20px 30px;
+        }
+        table{
+            border-collapse: collapse; 
+            width: 700px;
+        }
+        th{
+            background-color: rgba(240, 255, 255, 0.541);
+        }
+        #head1{
+            display: flex;
+            justify-content: start;
+        }
+
+         
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        
+    <div class="container">
+        <div class="heading">
+        <h1 style="color: rgb(255, 255, 255);">FIXED TABLE HEADER</h1>
+    </div>
+        <table >
+            <tr id="tablehead">
+                <th id="head1">Company</th>
+                <th>Price</th>
+                <th> Change</th>
+                <th>change%</th>
+            </tr>
+            <tr>
+                <td>AUSTRALIAN COMPANY</td>
+                <td>$1.38</td>
+                <td>+2.01</td>
+                <td>-o.38%</td>
+            </tr>
+            <tr>
+                <td>AUSENCO</td>
+                <td>$2.38</td>
+                <td>-0.01</td>
+                <td>-1.36%</td>
+            </tr>
+            <tr>
+                <td>ADELAIDE</td>
+                <td>$3.22</td>
+                <td>+0.01</td>
+                <td>+2.38%</td>
+            </tr>
+            <tr>
+                <td>ADITYA BIRLA</td>
+                <td>$1.38</td>
+                <td>+2.01</td>
+                <td>-o.38%</td>
+            </tr>
+            <tr>
+                <td>AUSTRALIAN COMPANY</td>
+                <td>$1.38</td>
+                <td>+2.01</td>
+                <td>-o.38%</td>
+            </tr>
+            <tr>
+                <td>AUSENCO</td>
+                <td>$1.38</td>
+                <td>+2.01</td>
+                <td>-o.38%</td>
+            </tr>
+        </table>
+    </div>
+    </div>
+    
+</body>
+
+</html>
